@@ -1,0 +1,26 @@
+/* 
+* **The first element**: a black background and white text
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback  */
+.niko {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    cursor: pointer;
+}
+.fbutton{
+    background-color: black;
+    color: white;
+    cursor:progress;
+}
+
+.fbutton:hover {
+    background-color: blue;
+}
+
+.sbutton{
+    background-color: yellow;
+}
+
+.sbutton:hover {
+    background-color: red;
+}
